@@ -18,10 +18,10 @@ public class Controlador {
     }
 
     @PostMapping("/register")
-    public String submitForm(@ModelAttribute("json") StringJson json) {
+    public String submitForm(@ModelAttribute("json") jsonString json) {
 
         System.out.println(toJsonService.toJson(json.getJson()));
-        return "finalRegistro";
+        return "registroFinal";
     }
 
 }

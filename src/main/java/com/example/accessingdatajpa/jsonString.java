@@ -1,9 +1,9 @@
 package com.example.accessingdatajpa;
 
-public class StringJson {
+public class jsonString {
     String json = "";
 
-    public StringJson() {
+    public jsonString() {
     }
 
     public String getJson() {
