@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registro</title>
+    </head>
+    <body>
+        <div>
+            <h1>Registro</h1>
+            <form action="#" th:action="@{/register}" method="post">
+                <label>Json:</label>
+                <textarea rows="25" cols="50" th:name="json"></textarea>
+                <br/>
+
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
+    </body>
+</html>
